@@ -30,6 +30,58 @@ img{
     padding: 2rem;
 }
 
+iframe{
+    padding-top: 0.6rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    height: 100%;
+}
+
+button{
+    
+    width: 30%;
+    height: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 1px 2px 5px #f2f2f2;
+    transition: all 0.2s ease-in-out;
+}
+input{
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    
+}
+
+table{
+    border-color: #f2f2f2;
+    height: 70%;
+    margin: auto;
+    padding: 0.2px;
+    text-align: center;
+}
+
+td{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.row-button{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    height: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
 .main{
     display: flex;
     width: 62rem;
@@ -103,6 +155,18 @@ box-shadow: 5px -2px 40px -12px rgba(0,0,0,0.75);
     
 }
 
+.content3{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    background-color: #3973BF;
+    color: #f6f6f6;
+    padding: 1rem;
+    font-size: 1.1rem;
+    justify-content: space-between;
+}
+
 .col1{
     display: flex;
     flex-direction: column;
@@ -161,4 +225,9 @@ box-shadow: 5px -2px 40px -12px rgba(0,0,0,0.75);
     display: flex;
     flex-direction: column;
     
+}
+
+#valores{
+    height: 50%;
+    margin: auto;
 }
